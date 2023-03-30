@@ -1,13 +1,13 @@
-package com.example;
+package com.logitech;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class LogitechPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(LogitechPlugin.class);
 		RuneLite.main(args);
 	}
 }
