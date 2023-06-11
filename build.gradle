@@ -13,6 +13,8 @@ repositories {
 def runeLiteVersion = 'latest.release'
 
 dependencies {
+	implementation files('libs/logiled.jar')
+
 	compileOnly group: 'net.runelite', name:'client', version: runeLiteVersion
 
 	compileOnly 'org.projectlombok:lombok:1.18.20'

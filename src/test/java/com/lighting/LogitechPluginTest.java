@@ -1,4 +1,4 @@
-package com.logitech;
+package com.lighting;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
